@@ -1,0 +1,5 @@
+// zippy.js
+
+class Zippy {
+
+}
