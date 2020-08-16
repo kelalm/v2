@@ -24,7 +24,12 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div
+      style={{
+        minHeight: "100vh",
+        backgroundColor: "#121212",
+      }}
+    >
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div
         style={{
@@ -40,7 +45,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer> */}
       </div>
-    </>
+    </div>
   )
 }
 
